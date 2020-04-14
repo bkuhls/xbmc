@@ -33,7 +33,7 @@
 
 #include <algorithm>
 
-#include <Platinum/Source/Platinum/Platinum.h>
+#include <Platinum/Platinum.h>
 
 using namespace MUSIC_INFO;
 using namespace XFILE;

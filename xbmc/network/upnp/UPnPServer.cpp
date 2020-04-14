@@ -41,7 +41,7 @@
 #include "view/GUIViewState.h"
 #include "xbmc/interfaces/AnnouncementManager.h"
 
-#include <Platinum/Source/Platinum/Platinum.h>
+#include <Platinum/Platinum.h>
 
 NPT_SET_LOCAL_LOGGER("xbmc.upnp.server")
 
