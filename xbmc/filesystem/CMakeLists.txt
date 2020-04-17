@@ -162,7 +162,7 @@ if(NFS_FOUND)
                       NFSFile.h)
 endif()
 
-if(PLATINUM_FOUND)
+if(ENABLE_UPNP)
   list(APPEND SOURCES NptXbmcFile.cpp
                       UPnPDirectory.cpp
                       UPnPFile.cpp)
