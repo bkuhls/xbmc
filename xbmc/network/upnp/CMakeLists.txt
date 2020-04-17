@@ -12,6 +12,6 @@ set(HEADERS UPnP.h
             UPnPServer.h
             UPnPSettings.h)
 
-if(PLATINUM_FOUND)
+if(ENABLE_UPNP)
   core_add_library(network_upnp)
 endif()

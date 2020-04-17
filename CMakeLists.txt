@@ -57,6 +57,7 @@ option(ENABLE_CLANGTIDY   "Enable clang-tidy support?" OFF)
 option(ENABLE_CPPCHECK    "Enable cppcheck support?" OFF)
 option(ENABLE_DVDCSS      "Enable libdvdcss support?" ON)
 option(ENABLE_INCLUDEWHATYOUUSE "Enable include-what-you-use support?" OFF)
+option(ENABLE_UPNP        "Enable UPnP support?" ON)
 option(ENABLE_AIRTUNES    "Enable AirTunes support?" ON)
 option(ENABLE_OPTICAL     "Enable optical support?" ON)
 option(ENABLE_PYTHON      "Enable python support?" ON)
@@ -238,6 +239,10 @@ endif()
 
 if(NOT UDEV_FOUND)
   core_optional_dep(LibUSB)
+endif()
+
+if(ENABLE_UPNP)
+  core_optional_dep(Platinum)
 endif()
 
 if(ENABLE_OPTICAL)
