@@ -37,10 +37,12 @@ DEPENDS = \
   libxml2 \
   libxslt \
   mariadb \
+  neptune \
   nettle \
   nghttp2 \
   openssl \
   p8-platform \
+  platinum \
   python3 \
   pythonmodule-pil \
   pythonmodule-pycryptodome \
@@ -185,6 +187,7 @@ mariadb: openssl $(ICONV) $(ZLIB)
 mesa: libdrm $(MESA_DEPS)
 nettle: gmp
 openssl: $(ZLIB)
+platinum: neptune
 python3: expat gettext libxml2 sqlite3 openssl libffi bzip2 xz $(ICONV)
 pythonmodule-pil: bzip2 $(PYMODULE_DEPS) $(ZLIB) libjpeg-turbo libpng freetype2 python3 pythonmodule-setuptools
 pythonmodule-pycryptodome: $(PYMODULE_DEPS) python3 pythonmodule-setuptools
