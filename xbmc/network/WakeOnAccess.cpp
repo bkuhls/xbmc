@@ -42,7 +42,8 @@
 
 #ifdef HAS_UPNP
 #include "network/upnp/UPnP.h"
-#include <Platinum/Source/Platinum/Platinum.h>
+
+#include <Platinum/Platinum.h>
 #endif
 
 #define DEFAULT_NETWORK_INIT_SEC      (20)   // wait 20 sec for network after startup or resume

@@ -39,7 +39,7 @@
 #include <inttypes.h>
 #include <mutex>
 
-#include <Platinum/Source/Platinum/Platinum.h>
+#include <Platinum/Platinum.h>
 
 NPT_SET_LOCAL_LOGGER("xbmc.upnp.renderer")
 

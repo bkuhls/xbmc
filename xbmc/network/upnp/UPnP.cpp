@@ -38,7 +38,7 @@
 #include <mutex>
 #include <set>
 
-#include <Platinum/Source/Platinum/Platinum.h>
+#include <Platinum/Platinum.h>
 
 using namespace UPNP;
 using namespace KODI::MESSAGING;

@@ -165,7 +165,7 @@ if(NFS_FOUND)
                       NFSFile.h)
 endif()
 
-if(ENABLE_UPNP)
+if(PLATINUM_FOUND)
   list(APPEND SOURCES NptXbmcFile.cpp
                       UPnPDirectory.cpp
                       UPnPFile.cpp)
@@ -174,6 +174,4 @@ if(ENABLE_UPNP)
 endif()
 
 core_add_library(filesystem)
-if(ENABLE_STATIC_LIBS AND ENABLE_UPNP)
-  target_link_libraries(filesystem PRIVATE upnp)
-endif()
+

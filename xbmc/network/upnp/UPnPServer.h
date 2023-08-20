@@ -16,7 +16,7 @@
 #include <string>
 #include <utility>
 
-#include <Platinum/Source/Devices/MediaConnect/PltMediaConnect.h>
+#include <Platinum/PltMediaConnect.h>
 
 class CFileItem;
 class CFileItemList;
